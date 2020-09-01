@@ -1,0 +1,186 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin: 20px 0; */
+    overflow-x: hidden;
+}
+
+/* ###################### Start Registeration & Login Pages ###################### */
+
+h2 {
+    margin-top: 20px;
+}
+
+form {
+    margin: 30px 0 20px 0;
+    border: 1px solid #ddd;
+    padding: 40px 40px 35px 30px;
+    box-shadow: 0 0 50px rgb(0, 0, 0),
+                inset 0 0 70px rgb(212, 211, 211);
+    border-radius: 10px;    
+}
+
+.form_header {
+    margin-top: 20px;
+}
+
+form label {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+form input {
+    font-size: 20px;
+}
+/* ###################### End Registeration & Login Pages ###################### */
+
+
+/* ###################### Start Main Page ###################### */
+
+/* ================= Start myData ================= */
+
+.myData {
+    background: #000;
+    padding: 70px 0;
+}
+
+.myData img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s all;
+} 
+
+.myData img:hover {
+    box-shadow: 0 0 50px #fff;
+}
+
+.myData .myInfo {
+    color: #fff;
+}
+
+.myData .myInfo h1 {
+    position: relative;
+    cursor: pointer;
+}
+
+.myData .myInfo h1:hover::after {
+    width: 85%;
+}
+
+.myData .myInfo h1::after {
+    content: '';
+    position: absolute;
+    top: 120%;
+    right: 100%;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 0%;
+    background: #fff;
+    box-shadow: 0 0 50px #fff;
+    transition: 0.5s all;
+}
+
+.myData .myInfo p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+/* ================= End myData ================= */
+
+/* ================= Start Slider ================= */
+.slider {
+    height: 700px;
+}
+
+.slider .carousel-indicators li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    transition: 0.5s all;
+}
+
+.slider .carousel-indicators li.active {
+    width: 15px;
+    height: 15px;
+    margin-top: -2.5px;
+}
+
+.slider .carousel-inner {
+    height: 100%;
+}
+
+/* ================= End Slider ================= */
+/* ================= Start informations ================= */
+
+.informations {
+    padding: 100px 0;
+    background: #000;
+}
+
+.contact h2,
+.languages h2,
+.favourites h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact li,
+.favourites li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.contact li i,
+.favourites li i {
+    color: rgb(238, 145, 25);
+}
+
+.languages .lang p {
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+.languages .progress {
+    margin-bottom: 10px;
+}
+
+/* ================= End informations ================= */
+/* ================= Start map ================= */
+iframe {
+    width: 100% !important;
+    height: 100%;
+}
+/* ================= End map ================= */
+/* ================= Start Video ================= */
+
+.video_items {
+    background: #000;
+    margin-top: 0px;
+    padding: 20px 0;
+}
+
+iframe {
+    width: 200px;
+    height: 400px;
+}
+
+.video_items a { 
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    padding: 10px 50px;
+    border-radius: 50px;
+    transition: 0.5s all;
+}
+
+.video_items a:hover { 
+    box-shadow: 0 0 50px #fff;
+}
+
+/* ================= End Video ================= */
+
+/* ###################### End Main Page ###################### */
